@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: simpleweb
-        image: yeasy/simple-web
+        image: nginxdemos/hello
         imagePullPolicy: Always
         ports:
         - containerPort: 80
